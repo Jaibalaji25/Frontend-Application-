@@ -1,0 +1,161 @@
+body {
+  background-color: darkgray;
+}
+nav {
+  background: #0077b6;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+form,
+ul {
+  max-width: 400px;
+  margin: auto;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .service-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .service-text {
+    text-align: center;
+  }
+}
+
+img {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.Hospital-img {
+  display: block;
+  margin: 20px auto;
+  width: 1000px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hospital-img {
+  display: block;
+  margin: 20px auto;
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.service-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.service-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.service-img {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.service-text {
+  flex: 1;
+  text-align: left;
+}
+
+.service-text h2 {
+  color: #023e8a;
+  margin-bottom: 10px;
+}
+
+.form {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  background: #0077b6;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #023e8a;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.update-btn {
+  background: #2d6a4f;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.update-btn:hover {
+  background: #1b4332;
+}
+
+.delete-btn {
+  background: #d00000;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #9b0000;
+}
